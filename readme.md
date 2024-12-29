@@ -49,12 +49,29 @@ const { getStationsWithDetails } = require("railway-geolocation");
   const bangladeshStations = await getStationsWithDetails("BD");
   console.log("Bangladesh Stations:", bangladeshStations);
 
-  // Fetch railway station details for India
-  const indiaStations = await getStationsWithDetails("IN");
-  console.log("India Stations:", indiaStations);
 })();
 
 
+
+```
+
+
+```json
+
+[
+  {
+    "Lat": 23.8103,
+    "Lon": 90.4125,
+    "Station": "Dhaka Railway Station",
+    "City": "Dhaka"
+  },
+  {
+    "Lat": 22.8456,
+    "Lon": 89.5403,
+    "Station": "Khulna Railway Station",
+    "City": "Khulna"
+  }
+]
 
 ```
 

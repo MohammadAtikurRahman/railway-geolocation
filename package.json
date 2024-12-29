@@ -1,6 +1,6 @@
 {
   "name": "railway-geolocation",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "A package to fetch railway station and location data for Bangladesh and worldwide using Overpass API.",
   "main": "index.js",
   "scripts": {
